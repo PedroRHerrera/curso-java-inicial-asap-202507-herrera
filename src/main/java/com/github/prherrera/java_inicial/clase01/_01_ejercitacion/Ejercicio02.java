@@ -1,4 +1,4 @@
-package com.github.prherrera.java_inicial.clase01._02_ejercitacion;
+package com.github.prherrera.java_inicial.clase01._01_ejercitacion;
 
 import com.github.sanchezih.util.io.Consola;
 
