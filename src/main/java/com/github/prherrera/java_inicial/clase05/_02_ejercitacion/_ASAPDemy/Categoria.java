@@ -1,0 +1,34 @@
+package com.github.prherrera.java_inicial.clase05._02_ejercitacion._ASAPDemy;
+
+import java.util.List;
+
+public class Categoria {
+
+	private int id;
+	private String nombre;
+	private List<Curso> cursos;
+	
+	
+	public Categoria(int id, String nombre, List<Curso> cursos) {
+		this.id = id;
+		this.nombre = nombre;
+		this.cursos = cursos;
+	}
+	
+	// ----------------------------------------------------------------------------
+	
+	public Curso buscarCurso(int idCurso) {
+		Curso curso = null;
+		int i = 0;
+		while(i < this.cursos.size() && curso == null) {
+	
+			if(this.cursos.get(i).mismoId(idCurso)) {
+				curso = this.cursos.get(i);
+			}
+			i++;
+		}
+		return curso;
+	}
+	
+	
+}
