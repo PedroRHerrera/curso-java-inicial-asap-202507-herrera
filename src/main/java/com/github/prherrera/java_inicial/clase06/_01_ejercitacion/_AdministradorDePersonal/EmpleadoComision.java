@@ -1,4 +1,4 @@
-package com.github.prherrera.java_inical.clase06._01_ejercitacion._AdministradorDePersonal;
+package com.github.prherrera.java_inicial.clase06._01_ejercitacion._AdministradorDePersonal;
 
 public class EmpleadoComision extends Empleado {
     private int cantidadClientes;
