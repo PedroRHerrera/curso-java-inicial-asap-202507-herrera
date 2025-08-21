@@ -1,4 +1,4 @@
-package com.github.phrerrera.java_inicial.clase07._01_ejercitacion._EstadisticasExamenesDeConducir;
+package com.github.prherrera.java_inicial.clase07._01_ejercitacion._EstadisticasExamenesDeConducir;
 
 public class Auto extends Vehiculo {
 	
