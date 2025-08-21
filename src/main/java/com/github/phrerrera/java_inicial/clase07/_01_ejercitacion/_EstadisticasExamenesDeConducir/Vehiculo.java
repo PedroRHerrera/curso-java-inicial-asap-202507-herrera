@@ -1,4 +1,4 @@
-package com.github.bgp.java_inicial.clase07._01_ejercicio._EstadisticasExamenesDeConducir;
+package com.github.phrerrera.java_inicial.clase07._01_ejercitacion._EstadisticasExamenesDeConducir;
 
 public abstract class Vehiculo {
 
